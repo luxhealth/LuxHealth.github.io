@@ -5,7 +5,11 @@
   </head>
   <body>
     <header>
-      {% include nav.html %}
+      {% if page.canonical_link %}
+        {% include amp_nav.html %}
+      {% else %}
+        {% include nav.html %}
+      {% endif %}
     </header>
 
     {{ content }}
