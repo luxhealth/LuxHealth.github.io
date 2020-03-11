@@ -60,3 +60,31 @@ footer .footer-links, footer .footer-links a {
 footer a:hover {
     text-decoration: underline;
 }
+
+
+.fixed-container {
+    /* background: red;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    max-height: 1080px; */
+}
+
+amp-video.contain {
+    height: 0;
+    max-height: 1080px;
+    max-width: 1920px;
+    overflow: hidden; 
+    margin: 0 auto;
+    padding-top: calc(1080 / 1920 * 100%);
+    position: relative;
+}
+
+amp-video.contain video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+}
