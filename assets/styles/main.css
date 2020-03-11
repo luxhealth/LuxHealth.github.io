@@ -9,14 +9,14 @@ header {
 }
 
 nav {
-    margin: 20px auto 35px auto;
+    margin: 10px auto 35px auto;
 }
 
 nav a {
     color: #aaa;
     display: inline-block;
     font-size: 20px;
-    margin: 0 10px;
+    margin: 10px;
     position: relative;
     text-decoration: none;
 }
@@ -73,9 +73,13 @@ amp-video.contain {
 }
 
 amp-video.contain video {
+    background: #fff;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
+    max-width: 1920px;
     height: 100%;
+    outline: 0;
+    border: 0;
 }
