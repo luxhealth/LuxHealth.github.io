@@ -4,26 +4,7 @@
     {% include head.html %}
   </head>
   <body>
-    <aside class="fixed-top-notice">
-      <img src="{{ base_url }}assets/img/Lux-Logo-small.png" alt="Lux Health Logo" width="200px" height="auto" style="display: block; margin: 0 auto;" />
-      <h3 style="text-align: center;">Thank you for all of your support and excitement</h3>
-      <p>We appreciate your active effort to prevent disease and keep you and your family healthy with Lux Health.  We absolutely understand your desire for at-home care.</p>
-      <p>However, we are health care providers.  We believe we have a greater duty to temporarily focus our service in these trying times.  In light of Novel Coronavirus (COVID-19),
-      <strong>we have decided to pause our medical services through Lux Health to volunteer our expertise and time combating the spread of COVID-19 more directly</strong>.</p>
-      <p>This unfortunately means we will not be available to answer our phones.  <strong>All current appointments are canceled.  Please check you emails for the notification.</strong></p>
-      <p>Do not catastrophize.  This is an opportunity for us as a community to rise up to the challenge and act with our resilience and compassion.</p>
-      <p>We look forward to serving you again following this challenge.</p>
-
-      <p style="font-style: italic;">The Lux Health Team</p>
-      <div style="margin-top: 45px; line-height: 1;">
-        <p>If you are having a medical emergency, call 911.</p>
-        <p>If you would like to stay updated with Lux Health, we welcome your email address below.</p>
-        <p>If you would like reliable information on COVID-19, please refer to the <a href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html" alt="CDC COVID-19 Webpage">CDC Website</a>.</p>
-      </div>
-      <div style="overflow: hidden;">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeIQKsliVDO_VPsT8f9SK-nNt8YRY9V5CLfCTfZsOTf2QOPAw/viewform?embedded=true" width="300" height="375" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" style="margin-top: -200px;">Loading…</iframe>
-      </div>
-    </aside>
+    {% include covid_notice.html %}
 
     <header>
       {% if page.canonical_link %}
