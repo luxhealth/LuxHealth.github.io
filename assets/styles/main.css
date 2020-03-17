@@ -8,6 +8,17 @@ header {
     text-align: center;
 }
 
+.fixed-top-notice {
+    background: #59A7FD;
+    color: #fff;
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 30px;
+    box-sizing: border-box;
+    top: 0;
+}
+
 nav {
     margin: 10px auto 25px auto;
 }
