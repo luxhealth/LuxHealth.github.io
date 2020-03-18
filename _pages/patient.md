@@ -4,7 +4,7 @@ description: Lux Health brings in-person, on-demand healthcare to your home, wor
 title: Lux Health for Patients
 permalink: /patient
 ---
-<div class="video-container">
+<div class="video-container-center-mobile">
     <video class="lazy" autoplay muted loop playsinline style="height: 100%;" layout="fill" poster="">
         <source type="video/mp4" data-src="{{ base_url }}/assets/vid/lux-house-call-for-all-ages.mp4?alt=media&v=1" />
     </video>
