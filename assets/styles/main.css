@@ -108,9 +108,9 @@ p > strong {
     overflow: hidden;
 }
 
-@media only screen and (max-width: 420px) {
+@media (max-width: 420px) {
     .video-container-center-mobile video {
-        transform: translateX(-15%);
+        transform: translateX(-20%);
     }
 }
 
