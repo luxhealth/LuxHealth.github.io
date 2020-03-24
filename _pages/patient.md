@@ -12,7 +12,7 @@ permalink: /patient
 
 <main class="master-container-1600">
     <h1>Lux Health for Patients</h1>
-    <p>In the United States, the good health care costs too much.  But, little progress has been made in lowering health care costs, while delivering the best of U.S. care to the people.</p>
+    <p>In the United States, good health care costs too much.  But, little progress has been made in lowering health care costs, much less the best care U.S. can offer.</p>
 
     <p>Lux Health is founded and built by health care providers who see a vision for better and more convenient care at lower prices, using cutting-edge technology.</p>
 
