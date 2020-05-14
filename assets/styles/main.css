@@ -121,6 +121,46 @@ p > strong {
     box-sizing: border-box;
 }
 
+.section-container-1600 {
+    display: block;
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.section-container-1600 h3 {
+    font-size: 30px;
+    margin: 20px 0 0 0;
+    text-align: left;
+}
+
+.section-container-1600 .subheader {
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.section-container-1600 p {
+    font-size: 20px;
+    min-width: 300px;
+    text-align: left;
+}
+
+figure.lux-health-happy-child {
+    background: transparent url('../img/child-during-lux-visit-with-blood-pressure-cuff.jpg') no-repeat center center;
+    background-size: 500px;
+    display: inline-block;
+    min-height: 300px;
+    min-width: 300px;
+    height: 25%;
+    width: 25%;
+    margin: 0 auto;
+    position: relative;
+}
+
 footer {
     margin: 60px 0 20px 0;
     text-align: center;
