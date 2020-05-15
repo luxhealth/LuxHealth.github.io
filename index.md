@@ -5,7 +5,7 @@ amp_link: /
 ---
 <div class="video-container">
     <div class="overlap-top-container">
-        <h1  style="color: rgba(0,0,0,0.5); font-size: 24px; font-weight: 100;">Welcome to Lux Health:</h1>
+        <h1  style="color: rgba(0,0,0,0.5); font-size: 24px; font-weight: 100;">Welcome to Lux Health</h1>
         <h3>In-person physical exams<br /> in the comfort <wbr />of your home.</h3>
         <p style="font-size: 22px;">Our health care providers come to you <strong>when</strong> and <strong>where</strong> you need them.</p>
         <!-- <div style="display: inline-block; margin: 20px auto 10px auto;">
@@ -75,7 +75,7 @@ amp_link: /
 </section>
 
 <section class="section-container-1600">
-    <div style="display: inline-block; min-width: 300px; width: 60%; margin: 0 auto 40px 0; text-align: center; vertical-align: top; box-sizing: border-box; ">
+    <div style="display: inline-block; min-width: 300px; width: 60%; margin: 0 auto 40px 0; padding-right: 5%; text-align: center; vertical-align: top; box-sizing: border-box; ">
         <h3 style="margin-top: 70px;">Lux is Affordable, Best-In-Class Healthcare: <span style="font-weight: 100;">We believe the best healthcare should be cheaper and accessible to everyone.</span></h3>
         <div class="subheader">If you cannot afford healthcare, please <a href="/contact">contact us</a>.  We work in healthcare, because we want to improve our communities through healing.</div>
     </div>
