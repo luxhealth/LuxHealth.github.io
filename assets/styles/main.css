@@ -179,7 +179,7 @@ CSS Infinite Slideshow
 
 @keyframes scroll {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-250px * 7.1)); }
+    100% { transform: translateX(calc(-250px * 6.95)); }
 }
 
 .slideshow .slide-track .slide {
@@ -189,8 +189,10 @@ CSS Infinite Slideshow
 }
 
 .slide img {
-    display: inline;
-    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 

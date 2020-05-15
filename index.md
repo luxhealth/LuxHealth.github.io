@@ -38,10 +38,10 @@ amp_link: /
                 <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/dartmouth-white-logo.png" />
             </figure>
             <figure class="slide">
-                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.png" />
+                <img height="90" width="auto" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.png" />
             </figure>
             <figure class="slide">
-                <img height="90" width="auto" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.png" />
+                <img height="80" width="auto" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.png" />
             </figure>
             <figure class="slide">
                 <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/harvard-white-logo.png" />
@@ -56,10 +56,10 @@ amp_link: /
                 <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/dartmouth-white-logo.png" />
             </figure>
             <figure class="slide">
-                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.png" />
+                <img height="90" width="auto" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.png" />
             </figure>
             <figure class="slide">
-                <img height="90" width="auto" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.png" />
+                <img height="80" width="auto" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.png" />
             </figure>
             <figure class="slide">
                 <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/harvard-white-logo.png" />
