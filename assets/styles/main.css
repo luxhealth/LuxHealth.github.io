@@ -124,7 +124,7 @@ p > strong {
 .section-container-1600 {
     display: block;
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 5% auto 5% auto;
     box-sizing: border-box;
     text-align: center;
     position: relative;
@@ -132,7 +132,7 @@ p > strong {
 
 .section-container-1600 h3 {
     font-size: 30px;
-    margin: 20px 0 0 0;
+    margin: 0;
     text-align: left;
 }
 
@@ -149,14 +149,72 @@ p > strong {
     text-align: left;
 }
 
+/***
+CSS Infinite Slideshow
+***/
+.slideshow-container {
+    background: #59A7FD;
+    color: rgba(255,255,255,0.5);
+    display: block;
+    height: 300px;
+    width: 100%;
+    margin: 5% 0 5% 0;
+    padding: 20px 0;
+    text-align: center;
+    box-sizing: border-box;
+    
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshow {
+
+}
+
+.slideshow .slide-track {
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(250px * 12);
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 7.1)); }
+}
+
+.slideshow .slide-track .slide {
+    display: inline-block;
+    height: 100px;
+    width: 250px;
+}
+
+.slide img {
+    display: inline;
+    vertical-align: middle;
+}
+
+
 figure.lux-health-happy-child {
     background: transparent url('../img/child-during-lux-visit-with-blood-pressure-cuff.jpg') no-repeat center center;
-    background-size: 500px;
+    background-size: cover;
+    border: 20px solid rgba(255, 82, 87, 1);
     display: inline-block;
     min-height: 300px;
     min-width: 300px;
     height: 25%;
     width: 25%;
+    margin: 0 auto;
+    position: relative;
+}
+
+figure.lux-health-cares {
+    background: transparent url('../img/lux-health-red-heart.png') no-repeat center center;
+    background-size: 190px;
+    border: 15px solid rgba(255, 82, 87, 1);
+    border-radius: 1500px;
+    display: inline-block;
+    min-height: 300px;
+    min-width: 300px;
     margin: 0 auto;
     position: relative;
 }

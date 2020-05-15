@@ -22,12 +22,62 @@ amp_link: /
 </div>
 
 <section class="section-container-1600">
-    <!-- <div style="display: inline-block; overflow: visible;"> -->
-        <figure class="lux-health-happy-child"></figure>
-    <!-- </div> -->
-    <div style="display: inline-block; min-width: 300px; width: 60%; margin: 0 auto; text-align: center; vertical-align: top;box-sizing: border-box; padding-left: 5%;">
-        <h3>Lux is the Modern House Call: <span style="font-weight: 100;">Healthcare Professionals On-Demand, When & Where You Need Them.</span></h3>
+    <figure class="lux-health-happy-child"></figure>
+    <div style="display: inline-block; min-width: 300px; width: 60%; margin: 0 auto; text-align: center; vertical-align: top; box-sizing: border-box; padding-left: 5%;">
+        <h3 style="margin-top: 40px;">Lux is the Modern House Call: <span style="font-weight: 100;">Healthcare Professionals On-Demand, When & Where You Need Them.</span></h3>
         <div class="subheader">Better than Telehealth/Telemedicine, the Quality of In-Clinic Visits without the Hospital Infection Risks.</div>
         <div class="subheader" style="margin-top: 15px;">You decide when and where, and one of our compassionate healthcare pros will meet you.</div>
     </div>
+</section>
+
+<section class="slideshow-container" style="">
+    <h3 style="font-size: 24; font-weight: 100; margin: 30px;">Outstanding Team and Advisors from Trusted Institutions</h3>
+    <div class="slideshow">
+        <div class="slide-track">
+            <figure class="slide">
+                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/dartmouth-white-logo.png" />
+            </figure>
+            <figure class="slide">
+                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.png" />
+            </figure>
+            <figure class="slide">
+                <img height="90" width="auto" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.png" />
+            </figure>
+            <figure class="slide">
+                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/harvard-white-logo.png" />
+            </figure>
+            <figure class="slide">
+                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/usc-white-logo.png" />
+            </figure>
+            <figure class="slide">
+                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/case-western-white-logo.png" width="250px" height="auto" />
+            </figure>
+            <figure class="slide">
+                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/dartmouth-white-logo.png" />
+            </figure>
+            <figure class="slide">
+                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.png" />
+            </figure>
+            <figure class="slide">
+                <img height="90" width="auto" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.png" />
+            </figure>
+            <figure class="slide">
+                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/harvard-white-logo.png" />
+            </figure>
+            <figure class="slide">
+                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/usc-white-logo.png" />
+            </figure>
+            <figure class="slide">
+                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/case-western-white-logo.png" width="250px" height="auto" />
+            </figure>
+        </div>
+    </div>
+</section>
+
+<section class="section-container-1600">
+    <div style="display: inline-block; min-width: 300px; width: 60%; margin: 0 auto 40px 0; text-align: center; vertical-align: top; box-sizing: border-box; ">
+        <h3 style="margin-top: 70px;">Lux is Affordable, Best-In-Class Healthcare: <span style="font-weight: 100;">We believe the best healthcare should be cheaper and accessible to everyone.</span></h3>
+        <div class="subheader">If you cannot afford healthcare, please <a href="/contact">contact us</a>.  We work in healthcare, because we want to improve our communities through healing.</div>
+    </div>
+    <figure class="lux-health-cares"></figure>
 </section>
