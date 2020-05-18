@@ -4,8 +4,8 @@ description: Lux Health brings in-person, on-demand healthcare to your home, wor
 title: News
 permalink: /nEgZsNt3P4VvG4bQZEios
 ---
-<div class="video-container-center-mobile">
-    <video class="lazy" autoplay muted loop playsinline style="height: 100%;" layout="fill" poster="{{ base_url }}/assets/img/child-during-lux-visit-with-blood-pressure-cuff.jpg">
+<div class="video-container-full-width-mobile">
+    <video class="lazy" autoplay muted loop playsinline layout="fill" poster="{{ base_url }}/assets/img/child-during-lux-visit-with-blood-pressure-cuff.jpg">
         <source type="video/mp4" data-src="{{ base_url }}/assets/vid/lux-house-call-for-all-ages.mp4?alt=media&v=1" />
     </video>
 </div>

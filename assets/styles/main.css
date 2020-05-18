@@ -116,9 +116,28 @@ p > strong {
     overflow: hidden;
 }
 
+.video-container-full-width-mobile {
+    display: block;
+    width: 100%;
+    height: 80vh;
+    min-height: 250px;
+    max-width: 1600px;
+    margin: 55px auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.video-container-full-width-mobile video {
+    height: 100%;
+}
+
 @media (max-width: 420px) {
     .video-container-center-mobile video {
         transform: translateX(-20%);
+    }
+
+    .video-container-full-width-mobile {
+        margin-top: 0;
     }
 }
 
