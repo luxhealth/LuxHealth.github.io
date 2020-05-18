@@ -2,7 +2,7 @@
 layout: plain_base
 description: Lux Health brings in-person, on-demand healthcare to your home, work, or vacation.
 title: News
-permalink: /nEgZsNt3P4VvG4bQZE
+permalink: /nEgZsNt3P4VvG4bQZEios
 ---
 <div class="video-container-center-mobile">
     <video class="lazy" autoplay muted loop playsinline style="height: 100%;" layout="fill" poster="{{ base_url }}/assets/img/child-during-lux-visit-with-blood-pressure-cuff.jpg">
@@ -23,5 +23,4 @@ permalink: /nEgZsNt3P4VvG4bQZE
     <p>Lux Health uses the latest technology to bring quality care back to the home.  No longer will you have to wait an hour at the clinic for your physical exam.  We will meet you when and where it is most convenient for you.</p>
 
     <p style="font-style: italic;">We are health care delivered.</p>
-
 </main>
