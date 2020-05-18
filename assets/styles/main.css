@@ -72,6 +72,7 @@ p > strong {
     border-radius: 20px 5px;
     box-shadow: 0 0px 25px 0 rgba(50, 50, 50, 0.3);
     box-sizing: border-box;
+    color: #000;
     display: table-cell;
     min-height: 170px;
     min-width: 300px;
