@@ -11,7 +11,7 @@ body.dark {
 }
 
 header {
-    margin: 50px 0 0 0;
+    margin: 0px 0 0 0;
     text-align: center;
 }
 
@@ -183,9 +183,9 @@ CSS Infinite Slideshow
     background: #59A7FD;
     color: rgba(255,255,255,0.5);
     display: block;
-    height: 300px;
+    height: 250px;
     width: 100%;
-    margin: 5% 0 5% 0;
+    margin: 5% 0 0 0;
     padding: 20px 0;
     text-align: center;
     box-sizing: border-box;
