@@ -88,8 +88,8 @@ amp_link: /
 
 <section class="section-container-1600">
     <div style="display: inline-block; min-width: 300px; width: 60%; margin: 0 auto 40px 0; padding-right: 5%; text-align: center; vertical-align: top; box-sizing: border-box; ">
-        <h3 style="margin-top: 70px;">Lux is Affordable, Best-In-Class Healthcare: <span style="font-weight: 100;">We believe the best healthcare should be cheaper and accessible to everyone.</span></h3>
-        <div class="subheader">If you cannot afford healthcare, please <a href="/contact">contact us</a>.  We work in healthcare, because we want to improve our communities through healing.</div>
+        <h3 style="margin-top: 70px;">A fully integrated suite of healthcare products.</h3>
+        <div class="subheader">We bring together everything you need to build and run a successful concierge practice, from tailored scheduling to reimbursement, including a next-generation EHR system.</div>
     </div>
     <figure class="lux-health-cares"></figure>
 </section>
