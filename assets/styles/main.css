@@ -151,7 +151,8 @@ p > strong {
 .section-container-1600 {
     display: block;
     max-width: 1600px;
-    margin: 5% auto 5% auto;
+    margin: 0 auto;
+    padding: 5% 0;
     box-sizing: border-box;
     text-align: center;
     position: relative;
