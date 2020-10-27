@@ -102,7 +102,7 @@ amp_link: /
             <source type="video/mp4" data-src="{{ base_url }}/assets/vid/lux-health-hcp-square.mp4?alt=media&v=1" />
         </video>
     </figure>
-    <div style="display: inline-block; min-width: 30px; width: 60%; margin: 0 auto; text-align: center; vertical-align: top; box-sizing: border-box; transform: rotate(5deg);">
+    <div style="display: inline-block; min-width: 30px; width: 60%; margin: 0 auto 40px auto; text-align: center; vertical-align: top; box-sizing: border-box; transform: rotate(5deg);">
         <h3 style="margin-top: 70px;">Healthcare practitioners are not businessmen or technologists.<br />We are healers.</h3>
         <div class="subheader">Lux Health Software is made to simplify the process of treating patients, allowing you to maximize your training and practice the best medicine possible, while not having to obsess over reimbursement.  This is a solution made for healthcare practitioners by your peers.</div>
     </div>
