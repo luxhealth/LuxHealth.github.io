@@ -97,7 +97,7 @@ amp_link: /
 </section>
 
 <section class="section-container-1600" style="background-color: #f6f9fc; transform: rotate(-5deg); width: 120%; margin: 20px 0 60px -60px;">
-    <figure style="border-radius: 100%; height: 350px; width: 350px; margin: -120px 0 0 12%; overflow: hidden; text-align: center; transform: rotate(5deg); opacity: 0.8">
+    <figure style="border-radius: 100%; height: 350px; width: 350px; margin: -130px 0 0 12%; overflow: hidden; text-align: center; transform: rotate(5deg); opacity: 0.8">
         <video class="lazy" autoplay muted loop playsinline style="display: inline-block; height: 350px; margin-left: -136px; opacity: 0.5;" layout="fill" poster="{{ base_url }}/assets/img/lux-health-hcp-square.png">
             <source type="video/mp4" data-src="{{ base_url }}/assets/vid/lux-health-hcp-square.mp4?alt=media&v=1" />
         </video>
@@ -119,7 +119,7 @@ amp_link: /
 <section class="section-container-1600" style="background-color: #f6f9fc;">
     <figure class="lux-health-cares"></figure>
     <div style="display: inline-block; min-width: 300px; width: 60%; margin: 0 auto; text-align: center; vertical-align: top; box-sizing: border-box; padding-left: 5%;">
-        <h3 style="margin-top: 70px;">Software Made For Your Practice.</h3>
+        <h3 style="margin-top: 70px;">Software made for your practice.</h3>
         <div class="subheader">Lux Health Software is tailored for your practice.  Unlike our competitors, your requests and feedback directly guide our software development, making our software your own.</div>
     </div>
 </section>
