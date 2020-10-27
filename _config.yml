@@ -27,11 +27,11 @@ author: Lux Health
 #   Google search results) and in your feed.xml site description.
 baseurl: "/" # the subpath of your site, e.g. /blog
 include: ["_pages"]
-url: "https://www.myluxhealth.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.luxhealth.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 # google_analytics: G-7799DK10EF # ga key: measurement ID
-support_email: support@myluxhealth.com
+support_email: support@luxhealth.com
 
 # Build settings
 # theme: minima
