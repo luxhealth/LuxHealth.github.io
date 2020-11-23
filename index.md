@@ -1,6 +1,6 @@
 ---
 layout: base
-title: The best, comprehensive software suite for concierge private practice.
+title: The top comprehensive software suite for concierge private practice.
 amp_link: /
 ---
 <canvas id="gradient-canvas"></canvas>
