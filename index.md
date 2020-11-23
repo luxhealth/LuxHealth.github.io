@@ -2,7 +2,6 @@
 layout: base
 title: Top Healthcare Software
 description: The top comprehensive software suite for concierge private practice.
-amp_link: /
 ---
 <canvas id="gradient-canvas"></canvas>
 <nav class="sticky-nav-container" id="logo-container">
