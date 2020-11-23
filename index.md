@@ -28,8 +28,8 @@ amp_link: /
 </section>
 
 <section class="full-width-container">
-    <img src="{{ relative_url }}assets/img/imacpro.png" width="700" style="opacity: 0.5; min-width: 300px; width: 58%; position: relative; text-align: right; z-index: 101;" />
-    <img src="{{ relative_url }}assets/img/iphone12pro.png" width="200" style="border-radius: 5%; width: 16%; margin: 100px 0 0 -50px; position: relative; text-align: right; z-index: 102;" />
+    <img src="{{ relative_url }}assets/img/imacpro.png" width="700" style="opacity: 0.5; min-width: 300px; width: 58%; position: relative; text-align: right; z-index: 101;" alt="iMac Pro" />
+    <img src="{{ relative_url }}assets/img/iphone12pro.png" width="200" style="border-radius: 5%; width: 16%; margin: 100px 0 0 -50px; position: relative; text-align: right; z-index: 102;" alt="iPhone 12 Pro" />
 </section>
 
 <div id="turning-mask"></div>
@@ -48,40 +48,40 @@ amp_link: /
     <div class="slideshow">
         <div class="slide-track">
             <figure class="slide">
-                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/dartmouth-white-logo.png" />
+                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/dartmouth-white-logo.png" alt="Dartmouth Logo" />
             </figure>
             <figure class="slide">
-                <img height="90" width="auto" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.png" />
+                <img height="90" width="auto" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.png" alt="NYU Langone Logo" />
             </figure>
             <figure class="slide">
-                <img height="80" width="auto" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.png" />
+                <img height="80" width="auto" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.png" alt="Stanford Health Care Logo" />
             </figure>
             <figure class="slide">
-                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/harvard-white-logo.png" />
+                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/harvard-white-logo.png" alt="Harvard Logo" />
             </figure>
             <figure class="slide">
-                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/usc-white-logo.png" />
+                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/usc-white-logo.png" alt="USC Logo" />
             </figure>
             <figure class="slide">
-                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/case-western-white-logo.png" width="250px" height="auto" />
+                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/case-western-white-logo.png" width="250px" height="auto" alt="Case Western Logo" />
             </figure>
             <figure class="slide">
-                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/dartmouth-white-logo.png" />
+                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/dartmouth-white-logo.png" alt="Dartmouth Logo" />
             </figure>
             <figure class="slide">
-                <img height="90" width="auto" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.png" />
+                <img height="90" width="auto" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.png" alt="NYU Logo" />
             </figure>
             <figure class="slide">
-                <img height="80" width="auto" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.png" />
+                <img height="80" width="auto" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.png" alt="SHC Logo" />
             </figure>
             <figure class="slide">
-                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/harvard-white-logo.png" />
+                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/harvard-white-logo.png" alt="Harvard Logo" />
             </figure>
             <figure class="slide">
-                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/usc-white-logo.png" />
+                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/usc-white-logo.png" alt="USC Logo" />
             </figure>
             <figure class="slide">
-                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/case-western-white-logo.png" width="250px" height="auto" />
+                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/case-western-white-logo.png" width="250px" height="auto" alt="Case Logo" />
             </figure>
         </div>
     </div>
