@@ -20,9 +20,17 @@ description: The top comprehensive software suite for concierge private practice
 </main>
 
 <section class="sticky-container" id="email-container">
-    <form>
-        <input id="email" name="email" placeholder="ENTER EMAIL" type="text" value="" autofocus style="background-color: transparent;-webkit-appearance: none; border: none; border-bottom: 1px solid #4391F7; border-radius: 0; font-size: 28px; font-weight: bold; outline: none; padding: 5px 10px; max-width: 360px; margin-top: 20px;" />
-        <button style="background-color: #4391F7; border: none; border-radius: 100%; color: #333; cursor: pointer; font-size: 13px; height: 88px; width: 88px; outline: none; margin: 10px 0; padding: 10px;" disabled="disabled">GET STARTED</button>
+    <form action="https://luxhealth.us7.list-manage.com/subscribe/post?u=a03861b56a2f009ca4d506504&amp;id=23b20db706" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <input id="mce-EMAIL" class="required email" name="EMAIL" placeholder="ENTER EMAIL" type="text" value="" autofocus style="background-color: transparent;-webkit-appearance: none; border: none; border-bottom: 1px solid #4391F7; border-radius: 0; font-size: 28px; font-weight: bold; outline: none; padding: 5px 10px; max-width: 360px; margin-top: 20px;" />
+        <div id="mce-responses" class="clear">
+		    <div class="response" id="mce-error-response" style="display:none"></div>
+		    <div class="response" id="mce-success-response" style="display:none"></div>
+	    </div>
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="b_a03861b56a2f009ca4d506504_23b20db706" tabindex="-1" value="">
+        </div>
+
+        <button id="mc-embedded-subscribe" style="background-color: #4391F7; border: none; border-radius: 100%; color: #333; cursor: pointer; font-size: 13px; height: 88px; width: 88px; outline: none; margin: 10px 0; padding: 10px;">GET STARTED</button>
     </form>
 </section>
 
