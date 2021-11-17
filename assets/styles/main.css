@@ -38,8 +38,9 @@ header {
 
 .hero-banner p {
   background: #fff;
+  color: #797979;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 2;
   padding: 40px 200px 40px 40px;
   width: 660px;
@@ -71,7 +72,7 @@ header {
 .left-anchored-section p {
   color: #797979;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 2;
   width: 660px;
 }
