@@ -1,288 +1,401 @@
 body {
-    background: #fff;
-    color: #000;
-    font-family: 'Lato', sans-serif; font-weight: 200;
-    margin: 0;
+  background: #fff;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  margin: 0;
 }
 
 body.dark {
-    background: #000;
-    color: #fff;
+  background: #000;
+  color: #fff;
 }
 
 header {
-    margin: 0px 0 0 0;
-    text-align: center;
+  margin: 0px 0 0 0;
+  text-align: center;
+}
+
+.constrain-to-1760 {
+  max-width: 1760px;
+  margin: 0 auto;
+}
+
+.hero-banner {
+  background: url("/assets/img/man-waving-on-video-call.jpg") no-repeat center -80px;
+  background-size: 100%;
+  min-height: 300px;
+  height: 730px;
+  margin-bottom: 184px;
+}
+
+.hero-banner h1 {
+  color: #03ABFF;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0 40px;
+}
+
+.hero-banner p {
+  background: #fff;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 2;
+  padding: 40px 200px 40px 40px;
+  width: 660px;
+}
+
+.rounded-blue-button {
+  background-color: #03ABFF;
+  border: 0;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 18px;
+  outline: 0;
+  padding: 12px 36px;
+}
+
+.left-anchored-section {
+  background-size: 100%;
+  min-height: 300px;
+  height: 730px;
+  margin-bottom: 184px;
+}
+
+.left-anchored-section h3, .centered-section h3 {
+  color: #03ABFF;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.left-anchored-section p {
+  color: #797979;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 2;
+  width: 660px;
+}
+
+.centered-section {
+  margin: 0 auto;
+  text-align: center;
+  min-height: 300px;
+  height: 730px;
+  margin-bottom: 240px;
+}
+
+ul.features-list {
+  color: #797979;
+  margin-left: 0;
+  padding: 0 16px;
+  font-size: 20px;
+}
+
+ul.features-list hr {
+  background-color: #797979;
+  border: none;
+  height: 1px;
+  margin: 18px 0;
+  opacity: 0.8;
+}
+
+.three-part-section {
+  text-align: center;
+  min-height: 300px;
+  height: 560;
+  margin: 360px auto 120px auto;
+}
+
+.three-section {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.5%;
+  line-height: 2;
+  text-align: left;
+  vertical-align: top;
+  color: #797979;
+  font-size: 20px;
+}
+
+.three-section h3, .footer-section h3 {
+  color: #03ABFF;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
 .fixed-top-notice {
-    background: #59A7FD;
-    color: #fff;
-    width: 100%;
-    letter-spacing: 1px;
-    line-height: 1.5;
-    padding: 30px;
-    box-sizing: border-box;
-    top: 0;
+  background: #59A7FD;
+  color: #fff;
+  width: 100%;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 30px;
+  box-sizing: border-box;
+  top: 0;
 }
 
 nav {
-    margin: 10px auto 25px auto;
+  margin: 10px auto 25px auto;
 }
 
 nav a {
-    color: #aaa;
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px;
-    position: relative;
-    text-decoration: none;
+  color: #aaa;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px;
+  position: relative;
+  text-decoration: none;
 }
 
 nav a:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    background-color: #333;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 100ms ease-in-out 0s;
-    transition: all 100ms ease-in-out 0s;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 100ms ease-in-out 0s;
+  transition: all 100ms ease-in-out 0s;
 }
 
 nav a:hover {
-    color: #333;
+  color: #333;
 }
 
 nav a:hover:before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
-p > strong {
-    font-weight: bold;
+p>strong {
+  font-weight: bold;
 }
 
 .overlap-top-container {
-    background-color: #fff;
-    border-radius: 20px 5px;
-    box-shadow: 0 0px 25px 0 rgba(50, 50, 50, 0.3);
-    box-sizing: border-box;
-    color: #000;
-    display: table-cell;
-    min-height: 170px;
-    min-width: 300px;
-    width: 40%;
-    max-width: 1200px;
-    margin: -35px 0 -130px 2%;
-    padding: 30px;
-    position: absolute;
-    text-align: left;
-    vertical-align: middle;
-    z-index: 1000;
+  background-color: #fff;
+  border-radius: 20px 5px;
+  box-shadow: 0 0px 25px 0 rgba(50, 50, 50, 0.3);
+  box-sizing: border-box;
+  color: #000;
+  display: table-cell;
+  min-height: 170px;
+  min-width: 300px;
+  width: 40%;
+  max-width: 1200px;
+  margin: -35px 0 -130px 2%;
+  padding: 30px;
+  position: absolute;
+  text-align: left;
+  vertical-align: middle;
+  z-index: 1000;
 }
 
 .overlap-top-container h3 {
-    display: inline-block;
-    font-size: 30px;
-    font-weight: 800;
-    margin: 0 20px 0 0;
-    transition: font-size 1;
-    vertical-align: middle;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0 20px 0 0;
+  transition: font-size 1;
+  vertical-align: middle;
 }
 
 .video-container {
-    display: block;
-    width: 100%;
-    height: 80vh;
-    max-width: 1600px;
-    margin: 55px auto;
-    text-align: center;
-    overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 80vh;
+  max-width: 1600px;
+  margin: 55px auto;
+  text-align: center;
+  overflow: hidden;
 }
 
 .video-container-center-mobile {
-    display: block;
-    width: 100%;
-    height: 80vh;
-    max-width: 1600px;
-    margin: 55px auto;
-    text-align: center;
-    overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 80vh;
+  max-width: 1600px;
+  margin: 55px auto;
+  text-align: center;
+  overflow: hidden;
 }
 
 .video-container-full-width-mobile {
-    display: block;
-    width: 100%;
-    height: 80vh;
-    min-height: 250px;
-    max-width: 1600px;
-    margin: 55px auto;
-    text-align: center;
-    overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 80vh;
+  min-height: 250px;
+  max-width: 1600px;
+  margin: 55px auto;
+  text-align: center;
+  overflow: hidden;
 }
 
 .video-container-full-width-mobile video {
-    height: 100%;
+  height: 100%;
 }
 
 @media (max-width: 420px) {
-    .video-container-center-mobile video {
-        transform: translateX(-20%);
-    }
+  .video-container-center-mobile video {
+    transform: translateX(-20%);
+  }
 
-    .video-container-full-width-mobile {
-        margin-top: 0;
-    }
+  .video-container-full-width-mobile {
+    margin-top: 0;
+  }
 }
 
 .master-container-1600 {
-    width: 80%;
-    max-width: 1600px;
-    margin: 0 auto;
-    box-sizing: border-box;
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .section-container-1600 {
-    display: block;
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 5% 0;
-    box-sizing: border-box;
-    text-align: center;
-    position: relative;
+  display: block;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 5% 0;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
 }
 
 .section-container-1600 h3 {
-    font-size: 30px;
-    margin: 0;
-    text-align: left;
+  font-size: 30px;
+  margin: 0;
+  text-align: left;
 }
 
 .section-container-1600 .subheader {
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: 30px;
-    text-align: left;
+  font-size: 25px;
+  font-weight: 100;
+  margin-top: 30px;
+  text-align: left;
 }
 
 .section-container-1600 p {
-    font-size: 20px;
-    min-width: 300px;
-    text-align: left;
+  font-size: 20px;
+  min-width: 300px;
+  text-align: left;
 }
 
 /***
 CSS Infinite Slideshow
 ***/
 .slideshow-container {
-    background: #59A7FD;
-    color: rgba(255,255,255,0.5);
-    display: block;
-    height: 250px;
-    width: 100%;
-    margin: 5% 0 0 0;
-    padding: 20px 0;
-    text-align: center;
-    box-sizing: border-box;
-    
-    position: relative;
-    overflow: hidden;
+  background: #59A7FD;
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  height: 250px;
+  width: 100%;
+  margin: 5% 0 0 0;
+  padding: 20px 0;
+  text-align: center;
+  box-sizing: border-box;
+
+  position: relative;
+  overflow: hidden;
 }
 
-.slideshow {
-
-}
+.slideshow {}
 
 .slideshow .slide-track {
-    animation: scroll 30s linear infinite;
-    display: flex;
-    width: calc(250px * 12);
+  animation: scroll 30s linear infinite;
+  display: flex;
+  width: calc(250px * 12);
 }
 
 @keyframes scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-250px * 6.93)); }
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 6.93));
+  }
 }
 
 .slideshow .slide-track .slide {
-    display: inline-block;
-    height: 100px;
-    width: 250px;
+  display: inline-block;
+  height: 100px;
+  width: 250px;
 }
 
 .slide img {
-    display: inline-block;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 
 figure.lux-health-happy-child {
-    background: transparent url('../img/child-during-lux-visit-with-blood-pressure-cuff.jpg') no-repeat center center;
-    background-size: cover;
-    border: 20px solid rgba(255, 82, 87, 1);
-    display: inline-block;
-    min-height: 300px;
-    min-width: 300px;
-    height: 25%;
-    width: 25%;
-    margin: 0 auto;
-    position: relative;
+  background: transparent url('../img/child-during-lux-visit-with-blood-pressure-cuff.jpg') no-repeat center center;
+  background-size: cover;
+  border: 20px solid rgba(255, 82, 87, 1);
+  display: inline-block;
+  min-height: 300px;
+  min-width: 300px;
+  height: 25%;
+  width: 25%;
+  margin: 0 auto;
+  position: relative;
 }
 
 figure.lux-health-cares {
-    background: transparent url('../img/lux-health-red-heart.png') no-repeat center center;
-    background-size: 190px;
-    border: 15px solid rgba(255, 82, 87, 1);
-    border-radius: 1500px;
-    display: inline-block;
-    min-height: 300px;
-    min-width: 300px;
-    margin: 0 auto;
-    position: relative;
+  background: transparent url('../img/lux-health-red-heart.png') no-repeat center center;
+  background-size: 190px;
+  border: 15px solid rgba(255, 82, 87, 1);
+  border-radius: 1500px;
+  display: inline-block;
+  min-height: 300px;
+  min-width: 300px;
+  margin: 0 auto;
+  position: relative;
 }
 
 footer {
-    margin: 60px 0 20px 0;
-    text-align: center;
+  margin: 60px 0 20px 0;
+  text-align: center;
 }
 
-footer .footer-links, footer .footer-links a {
-    color: #aaa;
-    font-size: 18px;
-    text-decoration: none;
+footer .footer-links,
+footer .footer-links a {
+  color: #aaa;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 amp-video.contain {
-    background: #fff;
-    height: 0;
-    max-height: 1080px;
-    max-width: 1920px;
-    overflow: hidden; 
-    margin: 0 auto;
-    padding-top: calc(1080 / 1920 * 100%);
-    position: relative;
+  background: #fff;
+  height: 0;
+  max-height: 1080px;
+  max-width: 1920px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-top: calc(1080 / 1920 * 100%);
+  position: relative;
 }
 
 amp-video.contain video {
-    background: #fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-width: 1920px;
-    height: 100%;
-    outline: 0;
-    border: 0;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+  outline: 0;
+  border: 0;
 }
