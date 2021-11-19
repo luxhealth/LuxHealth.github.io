@@ -10,9 +10,9 @@ permalink: /mockup
       <img src="/assets/img/logos/Lux-Health-logo.png" alt="Lux Health logo">
     </a>
     <div>
-      <div style="float: right;">
+      <div class="hero-content">
         <h1>#1 Unified <br />Software Solution for  <br />Concierge Medical <br />Practices</h1>
-        <button class="rounded-blue-button" style="margin: 24px 40px 28px 40px;">Get Started</button>
+        <button class="rounded-blue-button">Get Started</button>
         <p>
           At Lux Health, we believe healthcare IT software should be high-quality and clear.
           <br /><br />
@@ -23,7 +23,10 @@ permalink: /mockup
   </section>
 
   <section class="left-anchored-section">
-    <div style="display: inline-block; width: 660px; margin: 40px; vertical-align: top;">
+    <div class="img-container">
+      <img src="/assets/img/stethoscope-with-heart.jpg" alt="Lux Health helps you focus on care and healing." width="100%">
+    </div>
+    <div class="section-content">
       <img src="/assets/img/Lux-Health-heart.png" alt="Lux Health wants to de-risk your practice." />
       <h3>Zero Upfront: <br />We get paid, when <br />you get paid.</h3>
       <p>
@@ -32,17 +35,12 @@ permalink: /mockup
         Whether you want to continue with your billing system or leverage Lux Health's automated, full-service billing and clearinghouse, we only take a percentage on <u>successful</u> reimbursement, collection, or payments.
       </p>
     </div>
-    <a href="/" style="display: inline-block; width: 40%;">
-      <img src="/assets/img/stethoscope-with-heart.jpg" alt="Lux Health helps you focus on care and healing." width="100%">
-    </a>
   </section>
 
-
-
   <section class="centered-section">
-    <a href="/" style="display: inline-block; width: 30%;">
+    <div style="display: inline-block; width: 30%; min-width: 300px;">
       <img src="/assets/img/physician-caring-for-patient.jpg" alt="Lux Health helps you focus on care and healing." width="100%">
-    </a>
+    </div>
     <div style="display: inline-block; margin: 40px; vertical-align: top; text-align: left;">
       <img src="/assets/img/Lux-Health-heart.png" alt="Lux Health cares" />
       <h3>What We Offer: <br />Software Suite Built for <br />Your Workflow <br />(Not Web-Based)</h3>
