@@ -70,7 +70,7 @@ header {
 .left-anchored-section {
   min-height: 300px;
   height: 730px;
-  margin: 640px auto 480px auto;
+  margin: 560px auto;
   display: inline-block;
 }
 
