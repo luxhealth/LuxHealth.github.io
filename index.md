@@ -50,7 +50,7 @@ description: The top comprehensive software suite for concierge private practice
     </div>
 </section> -->
 
-<section class="slideshow-container" style="background-color: #0a2540; ">
+<section class="slideshow-container" style="margin-top: 5%; background-color: #0a2540; ">
     <h3 style="font-size: 24; font-weight: 100; margin: 20px;">Outstanding Team and Advisors from Trusted Institutions</h3>
     <div class="slideshow">
         <div class="slide-track">

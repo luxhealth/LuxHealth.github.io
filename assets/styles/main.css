@@ -29,12 +29,22 @@ header {
   margin-bottom: 184px;
 }
 
+a.logo-link {
+  border-radius: 48px 48px 150px 150px;
+  display: inline-block;
+  margin: 42px 40px 0 40px;
+}
+
+a.logo-link img {
+  border-radius: 48px 48px 150px 150px;
+}
+
 .hero-banner h1 {
   background-color: #fff;
   color: #03ABFF;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 600;
-  margin: 0 40px;
+  margin: 0 32px;
   padding: 8px;
 }
 
@@ -67,10 +77,14 @@ header {
   padding: 12px 36px;
 }
 
+.rounded-blue-button:hover {
+  cursor: pointer;
+}
+
 .left-anchored-section {
   min-height: 300px;
   height: 730px;
-  margin: 560px auto 520px auto;
+  margin: 460px auto 520px auto;
   display: inline-block;
 }
 
@@ -105,8 +119,6 @@ header {
 .centered-section {
   margin: 0 auto;
   text-align: center;
-  min-height: 730px;
-  margin-bottom: 40px;
 }
 
 ul.features-list {
@@ -128,7 +140,7 @@ ul.features-list hr {
   text-align: center;
   min-height: 300px;
   height: 560;
-  margin: 0px auto 80px auto;
+  margin: 0px auto 40px auto;
 }
 
 .three-section {
@@ -164,6 +176,7 @@ ul.features-list hr {
     background-color: transparent;
     color: #03ABFF;
     font-size: 48px;
+    margin: 0 40px;
     padding: 0;
   }
 
@@ -221,8 +234,6 @@ ul.features-list hr {
   }
 
   .centered-section {
-    min-height: 300px;
-    height: 730px;
     margin-bottom: 40px;
   }
 
@@ -241,7 +252,7 @@ ul.features-list hr {
   .three-part-section {
     min-height: 300px;
     height: 560;
-    margin: 300px auto 120px auto;
+    margin: 40px auto;
   }
 
   .three-section {
@@ -261,9 +272,6 @@ ul.features-list hr {
     line-height: 1.2;
   }
 }
-
-
-
 
 .fixed-top-notice {
   background: #59A7FD;
@@ -432,11 +440,11 @@ CSS Infinite Slideshow
 ***/
 .slideshow-container {
   background: #59A7FD;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255,255,255,0.6);
   display: block;
-  height: 250px;
+  height: 275px;
   width: 100%;
-  margin: 5% 0 0 0;
+  margin: 0 0 0 0;
   padding: 20px 0;
   text-align: center;
   box-sizing: border-box;

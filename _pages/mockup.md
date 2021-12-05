@@ -6,7 +6,7 @@ permalink: /mockup
 ---
 <main class="constrain-to-1760">
   <section class="hero-banner">
-    <a href="/" style="display: inline-block; margin: 42px 40px 0 40px;">
+    <a href="/" class="logo-link">
       <img src="/assets/img/logos/Lux-Health-logo.png" alt="Lux Health logo">
     </a>
     <div>
@@ -68,6 +68,10 @@ permalink: /mockup
     </div>
   </section>
 
+  <section class="centered-section">
+    <img src="/assets/img/Lux-Health-apps-on-all-devices.png" alt="Lux Health apps were made to run on all devices" style="margin-top: 40px; width: 90%; max-width: 1000px;" />
+  </section>
+
   <section class="three-part-section">
     <div class="three-section">
       <img src="/assets/img/Lux-Health-heart.png" alt="Lux Health cares" />
@@ -83,12 +87,57 @@ permalink: /mockup
 
     <div class="three-section">
       <img src="/assets/img/Lux-Health-heart.png" alt="Lux Health cares" />
-      <h3>Software for Clinics</h3>
-      <p>Our software adapts with your workflow to reduce administrative work.  Our Lux AI (machine learning) modles, can be leveraged to automate repetitive administrative tasks.  If it will meaningfully save you time or money, we also create custom, tailored software for your practice.</p>
+      <h3>Software for Concierge</h3>
+      <p>Our software adapts with your workflow to reduce administrative work.  Our Lux AI (machine learning) models, can be leveraged to automate repetitive administrative tasks.  If it will meaningfully save you time or money, we also create custom, tailored software for your practice.</p>
     </div>
   </section>
 
 </main>
+
+
+<section class="slideshow-container" style="background-color: #0a2540; ">
+    <h3 style="font-size: 24; font-weight: 100; margin: 20px;">Lux Health Is Built by an Outstanding Team with Advisors from Trusted Institutions</h3>
+    <div class="slideshow">
+        <div class="slide-track">
+            <figure class="slide">
+                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/dartmouth-white-logo.png" alt="Dartmouth Logo" />
+            </figure>
+            <figure class="slide">
+                <img height="90" width="auto" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.png" alt="NYU Langone Logo" />
+            </figure>
+            <figure class="slide">
+                <img height="80" width="auto" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.png" alt="Stanford Health Care Logo" />
+            </figure>
+            <figure class="slide">
+                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/harvard-white-logo.png" alt="Harvard Logo" />
+            </figure>
+            <figure class="slide">
+                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/usc-white-logo.png" alt="USC Logo" />
+            </figure>
+            <figure class="slide">
+                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/case-western-white-logo.png" width="250px" height="auto" alt="Case Western Logo" />
+            </figure>
+            <figure class="slide">
+                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/dartmouth-white-logo.png" alt="Dartmouth Logo" />
+            </figure>
+            <figure class="slide">
+                <img height="90" width="auto" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.png" alt="NYU Logo" />
+            </figure>
+            <figure class="slide">
+                <img height="80" width="auto" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.png" alt="SHC Logo" />
+            </figure>
+            <figure class="slide">
+                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/harvard-white-logo.png" alt="Harvard Logo" />
+            </figure>
+            <figure class="slide">
+                <img height="70" width="auto" src="{{ relative_url }}assets/img/logos/usc-white-logo.png" alt="USC Logo" />
+            </figure>
+            <figure class="slide">
+                <img height="100" width="auto" src="{{ relative_url }}assets/img/logos/case-western-white-logo.png" width="250px" height="auto" alt="Case Logo" />
+            </figure>
+        </div>
+    </div>
+</section>
 
 <section class="footer-section" style="background: #95dcff; width: 100%; height: 676px; text-align: center;">
   <div style="display: block; padding-top: 230px;position: relative;">
