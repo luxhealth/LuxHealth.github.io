@@ -12,7 +12,7 @@ permalink: /mockup
     <div>
       <div class="hero-content">
         <h1>#1 Unified <br />Software Solution for  <br />Concierge Medical <br />Practices</h1>
-        <button class="rounded-blue-button">Get Started</button>
+        <a href="https://vip.luxhealth.com/intake" class="rounded-blue-button">Get Started</a>
         <p>
           At Lux Health, we believe healthcare IT software should be high-quality and clear.
           <br /><br />
@@ -142,6 +142,6 @@ permalink: /mockup
 <section class="footer-section" style="background: #95dcff; width: 100%; height: 676px; text-align: center;">
   <div style="display: block; padding-top: 230px;position: relative;">
     <h3>Find out more</h3>
-    <button class="rounded-blue-button">Get Started</button>
+    <a href="https://vip.luxhealth.com/intake" class="rounded-blue-button">Get Started</a>
   </div>
 </section>

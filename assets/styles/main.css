@@ -72,9 +72,11 @@ a.logo-link img {
   border: 0;
   border-radius: 100px;
   color: #fff;
+  display: inline-block;
   font-size: 18px;
   outline: 0;
   padding: 12px 36px;
+  text-decoration: none;
 }
 
 .rounded-blue-button:hover {
