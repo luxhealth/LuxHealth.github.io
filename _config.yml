@@ -30,7 +30,7 @@ include: ["_pages"]
 url: "https://www.luxhealth.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
-# google_analytics: G-7799DK10EF # ga key: measurement ID
+google_analytics: G-KRTVER6GSZ # ga key: measurement ID
 support_email: support@luxhealth.com
 
 # Build settings
