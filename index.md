@@ -37,10 +37,10 @@ title: Best-In-Class, Full-Stack Solution for Concierge Medical Clinics
   </section>
 
   <section class="centered-section">
-    <div style="display: inline-block; width: 30%; min-width: 300px;">
+    <div class="centered-section-image">
       <img src="/assets/img/physician-caring-for-patient.jpg" alt="Lux Health helps you focus on care and healing." width="100%">
     </div>
-    <div style="display: inline-block; margin: 40px; vertical-align: top; text-align: left;">
+    <div class="centered-section-content">
       <img src="/assets/img/Lux-Health-heart.png" alt="Lux Health cares" />
       <h3>What We Offer: <br />Software Suite Built for <br />Your Workflow <br />(Not Web-Based)</h3>
       <ul class="features-list">
@@ -68,7 +68,7 @@ title: Best-In-Class, Full-Stack Solution for Concierge Medical Clinics
   </section>
 
   <section class="centered-section">
-    <img src="/assets/img/Lux-Health-apps-on-all-devices.png" alt="Lux Health apps were made to run on all devices" style="margin-top: 40px; width: 90%; max-width: 1000px;" />
+    <img src="/assets/img/Lux-Health-apps-on-all-devices.png" alt="Lux Health apps were made to run on all devices" class="centered-image" />
   </section>
 
   <section class="three-part-section">
@@ -77,25 +77,23 @@ title: Best-In-Class, Full-Stack Solution for Concierge Medical Clinics
       <h3>Top-Notch <br />Support</h3>
       <p>We deliver training and support via messaging, voice, remote, and on-premise.</p>
     </div>
-
-    <div class="three-section">
-      <img src="/assets/img/Lux-Health-heart.png" alt="Lux Health cares" />
-      <h3>Security</h3>
-      <p>We strive to better industry practices when safeguarding PHI.  Beyond security protocols, our proprietary healthcare data platform goes beyond (conventional) bank-level security.</p>
-    </div>
-
     <div class="three-section">
       <img src="/assets/img/Lux-Health-heart.png" alt="Lux Health cares" />
       <h3>Software for Concierge</h3>
       <p>Our software adapts with your workflow to reduce administrative work.  Our Lux AI (machine learning) models, can be leveraged to automate repetitive administrative tasks.  We have created custom, tailored software for our Early-Access VIP Partners.</p>
+    </div>
+    <div class="three-section">
+      <img src="/assets/img/Lux-Health-heart.png" alt="Lux Health cares" />
+      <h3>Security</h3>
+      <p>We strive to better industry practices when safeguarding PHI.  Beyond security protocols, our proprietary healthcare data platform goes beyond (conventional) bank-level security.</p>
     </div>
   </section>
 
 </main>
 
 
-<section class="slideshow-container" style="background-color: #0a2540; ">
-    <h3 style="font-size: 24; font-weight: 100; margin: 20px;">Lux Health Is Built by an Outstanding Team with Advisors from Trusted Institutions</h3>
+<section class="slideshow-container">
+    <h3>Lux Health Is Built by an Outstanding Team with Advisors from Trusted Institutions</h3>
     <div class="slideshow">
         <div class="slide-track">
             <figure class="slide">
@@ -138,8 +136,8 @@ title: Best-In-Class, Full-Stack Solution for Concierge Medical Clinics
     </div>
 </section>
 
-<section class="footer-section" style="background: #95dcff; width: 100%; height: 676px; text-align: center;">
-  <div style="display: block; padding-top: 230px;position: relative;">
+<section class="footer-section">
+  <div class="footer-content">
     <h3>Find out more</h3>
     <a href="https://vip.luxhealth.com/intake" class="rounded-blue-button">Get Started</a>
   </div>
