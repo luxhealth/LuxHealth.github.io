@@ -81,13 +81,13 @@ title: Best-In-Class, Full-Stack Solution for Concierge Medical Clinics
     <div class="three-section">
       <img src="/assets/img/Lux-Health-heart.png" alt="Lux Health cares" />
       <h3>Security</h3>
-      <p>We do everything we can to safeguard PHI.  Beyond security protocols, our proprietary healthcare data ecosystem goes beyond (conventional) bank-level security.</p>
+      <p>We strive to better industry practices when safeguarding PHI.  Beyond security protocols, our proprietary healthcare data platform goes beyond (conventional) bank-level security.</p>
     </div>
 
     <div class="three-section">
       <img src="/assets/img/Lux-Health-heart.png" alt="Lux Health cares" />
       <h3>Software for Concierge</h3>
-      <p>Our software adapts with your workflow to reduce administrative work.  Our Lux AI (machine learning) models, can be leveraged to automate repetitive administrative tasks.  If it will meaningfully save you time or money, we also create custom, tailored software for your practice.</p>
+      <p>Our software adapts with your workflow to reduce administrative work.  Our Lux AI (machine learning) models, can be leveraged to automate repetitive administrative tasks.  We have created custom, tailored software for our Early-Access VIP Partners.</p>
     </div>
   </section>
 
