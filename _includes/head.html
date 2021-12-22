@@ -27,16 +27,16 @@
 <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
 
-<!-- connect to domain of font files -->
+<!-- 1) connect to domain of font files -->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<!-- optionally increase loading priority -->
+<!-- 2) optionally increase loading priority -->
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap">
 
-<!-- async CSS -->
+<!-- 3) async CSS -->
 <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap">
 
-<!-- no-JS fallback -->
+<!-- 4) no-JS fallback -->
 <noscript>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap">
 </noscript>
