@@ -166,7 +166,7 @@ header {
 }
 
 .hero-banner {
-  background: url("/assets/img/man-waving-on-video-call.jpg") no-repeat -64px -80px;
+  background: url("/assets/img/man-waving-on-video-call.webp") no-repeat -64px -80px;
   background-size: auto 100%;
   min-height: 300px;
   height: 566px;
@@ -344,7 +344,7 @@ ul.features-list hr {
 /* @media (min-width: 1240px) { */
 @media (min-width: 800px) {
   .hero-banner {
-    background: url("/assets/img/man-waving-on-video-call.jpg") no-repeat center -80px;
+    background: url("/assets/img/man-waving-on-video-call.webp") no-repeat center -80px;
     background-size: 100%;
     height: 730px;
     margin-bottom: 184px;

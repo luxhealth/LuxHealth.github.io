@@ -6,7 +6,7 @@ title: Best-In-Class, Full-Stack Solution for Concierge Medical Clinics
 <main class="constrain-to-1760">
   <section class="hero-banner">
     <a href="/" class="logo-link">
-      <img src="/assets/img/logos/Lux-Health-logo.png" width="155px" height="119px" alt="Lux Health logo">
+      <img src="/assets/img/logos/Lux-Health-logo.webp" width="155px" height="119px" alt="Lux Health logo">
     </a>
     <div>
       <div class="hero-content">
@@ -23,10 +23,10 @@ title: Best-In-Class, Full-Stack Solution for Concierge Medical Clinics
 
   <section class="left-anchored-section">
     <div class="img-container">
-      <img src="/assets/img/stethoscope-with-heart.jpg" alt="Lux Health helps you focus on care and healing." width="100%" height="100%">
+      <img src="/assets/img/stethoscope-with-heart.webp" alt="Lux Health helps you focus on care and healing." width="100%" height="100%">
     </div>
     <div class="section-content">
-      <img width="61px" height="47px" src="/assets/img/Lux-Health-heart.png" alt="Lux Health wants to de-risk your practice." />
+      <img width="61px" height="47px" src="/assets/img/Lux-Health-heart.webp" alt="Lux Health wants to de-risk your practice." />
       <h3>Zero Upfront: <br />We get paid, when <br />you get paid.</h3>
       <p>
         Healthcare is complex.  The tools to help you should be simple.  No more managing dozens of vendors.  No lock-in, monthly fees, or per user charges.
@@ -38,10 +38,10 @@ title: Best-In-Class, Full-Stack Solution for Concierge Medical Clinics
 
   <section class="centered-section">
     <div class="centered-section-image">
-      <img src="/assets/img/physician-caring-for-patient.jpg" alt="Lux Health helps you focus on care and healing." width="100%" height="100%">
+      <img src="/assets/img/physician-caring-for-patient.webp" alt="Lux Health helps you focus on care and healing." width="100%" height="100%">
     </div>
     <div class="centered-section-content">
-      <img width="61px" height="47px" src="/assets/img/Lux-Health-heart.png" alt="Lux Health cares" />
+      <img width="61px" height="47px" src="/assets/img/Lux-Health-heart.webp" alt="Lux Health cares" />
       <h3>What We Offer: <br />Software Suite Built for <br />Your Workflow <br />(Not Web-Based)</h3>
       <ul class="features-list">
         <li>Electronic Health Record System</li>
@@ -68,22 +68,22 @@ title: Best-In-Class, Full-Stack Solution for Concierge Medical Clinics
   </section>
 
   <section class="centered-section">
-    <img width="100%" height="100%" srcset="/assets/img/Lux-Health-apps-on-all-devices.png 1000w, /assets/img/Lux-Health-apps-on-all-devices-800px.png 800w, /assets/img/Lux-Health-apps-on-all-devices-600px.png 600w" sizes="(min-width: 800px) 800px, 100vw" src="/assets/img/Lux-Health-apps-on-all-devices.png" alt="Lux Health apps were made to run on all devices" class="centered-image" />
+    <img width="100%" height="100%" srcset="/assets/img/Lux-Health-apps-on-all-devices.webp 1000w, /assets/img/Lux-Health-apps-on-all-devices-800px.webp 800w, /assets/img/Lux-Health-apps-on-all-devices-600px.webp 600w" sizes="(min-width: 800px) 800px, 100vw" src="/assets/img/Lux-Health-apps-on-all-devices.webp" alt="Lux Health apps were made to run on all devices" class="centered-image" />
   </section>
 
   <section class="three-part-section">
     <div class="three-section">
-      <img width="61px" height="47px" src="/assets/img/Lux-Health-heart.png" alt="Lux Health cares" />
+      <img width="61px" height="47px" src="/assets/img/Lux-Health-heart.webp" alt="Lux Health cares" />
       <h3>Top-Notch <br />Support</h3>
       <p>We deliver training and support via messaging, voice, remote, and on-premise.</p>
     </div>
     <div class="three-section">
-      <img width="61px" height="47px" src="/assets/img/Lux-Health-heart.png" alt="Lux Health cares" />
+      <img width="61px" height="47px" src="/assets/img/Lux-Health-heart.webp" alt="Lux Health cares" />
       <h3>Software for Concierge</h3>
       <p>Our software adapts with your workflow to reduce administrative work.  Our Lux AI (machine learning) models, can be leveraged to automate repetitive administrative tasks.  We have created custom, tailored software for our Early-Access VIP Partners.</p>
     </div>
     <div class="three-section">
-      <img width="61px" height="47px" src="/assets/img/Lux-Health-heart.png" alt="Lux Health cares" />
+      <img width="61px" height="47px" src="/assets/img/Lux-Health-heart.webp" alt="Lux Health cares" />
       <h3>Security</h3>
       <p>We strive to better industry practices when safeguarding PHI.  Beyond security protocols, our proprietary healthcare data platform goes beyond (conventional) bank-level security.</p>
     </div>
@@ -97,40 +97,40 @@ title: Best-In-Class, Full-Stack Solution for Concierge Medical Clinics
     <div class="slideshow">
         <div class="slide-track">
             <figure class="slide">
-                <img height="100" width="132" src="{{ relative_url }}assets/img/logos/dartmouth-white-logo.png" alt="Dartmouth Logo" />
+                <img height="100" width="132" src="{{ relative_url }}assets/img/logos/dartmouth-white-logo.webp" alt="Dartmouth Logo" />
             </figure>
             <figure class="slide">
-                <img height="90" width="212" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.png" alt="NYU Langone Logo" />
+                <img height="90" width="212" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.webp" alt="NYU Langone Logo" />
             </figure>
             <figure class="slide">
-                <img height="80" width="192" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.png" alt="Stanford Health Care Logo" />
+                <img height="80" width="192" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.webp" alt="Stanford Health Care Logo" />
             </figure>
             <figure class="slide">
-                <img height="70" width="280" src="{{ relative_url }}assets/img/logos/harvard-white-logo.png" alt="Harvard Logo" />
+                <img height="70" width="280" src="{{ relative_url }}assets/img/logos/harvard-white-logo.webp" alt="Harvard Logo" />
             </figure>
             <figure class="slide">
-                <img height="70" width="215" src="{{ relative_url }}assets/img/logos/usc-white-logo.png" alt="USC Logo" />
+                <img height="70" width="215" src="{{ relative_url }}assets/img/logos/usc-white-logo.webp" alt="USC Logo" />
             </figure>
             <figure class="slide">
-                <img height="100" width="41" src="{{ relative_url }}assets/img/logos/case-western-white-logo.png" width="250px" height="auto" alt="Case Western Logo" />
+                <img src="{{ relative_url }}assets/img/logos/case-western-white-logo.webp" width="250px" height="40.7px" alt="Case Western Logo" />
             </figure>
             <figure class="slide">
-                <img height="100" width="132" src="{{ relative_url }}assets/img/logos/dartmouth-white-logo.png" alt="Dartmouth Logo" />
+                <img height="100" width="132" src="{{ relative_url }}assets/img/logos/dartmouth-white-logo.webp" alt="Dartmouth Logo" />
             </figure>
             <figure class="slide">
-                <img height="90" width="212" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.png" alt="NYU Logo" />
+                <img height="90" width="212" src="{{ relative_url }}assets/img/logos/nyu-langone-health-white-logo.webp" alt="NYU Logo" />
             </figure>
             <figure class="slide">
-                <img height="80" width="192" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.png" alt="SHC Logo" />
+                <img height="80" width="192" src="{{ relative_url }}assets/img/logos/stanford-health-care-white-logo.webp" alt="SHC Logo" />
             </figure>
             <figure class="slide">
-                <img height="70" width="280" src="{{ relative_url }}assets/img/logos/harvard-white-logo.png" alt="Harvard Logo" />
+                <img height="70" width="280" src="{{ relative_url }}assets/img/logos/harvard-white-logo.webp" alt="Harvard Logo" />
             </figure>
             <figure class="slide">
-                <img height="70" width="215" src="{{ relative_url }}assets/img/logos/usc-white-logo.png" alt="USC Logo" />
+                <img height="70" width="215" src="{{ relative_url }}assets/img/logos/usc-white-logo.webp" alt="USC Logo" />
             </figure>
             <figure class="slide">
-                <img height="100" width="41" src="{{ relative_url }}assets/img/logos/case-western-white-logo.png" width="250px" height="auto" alt="Case Logo" />
+                <img src="{{ relative_url }}assets/img/logos/case-western-white-logo.webp" width="250px" height="40.7px" alt="Case Logo" />
             </figure>
         </div>
     </div>
