@@ -68,7 +68,7 @@ title: Best-In-Class, Full-Stack Solution for Concierge Medical Clinics
   </section>
 
   <section class="centered-section">
-    <img width="100%" height="100%" srcset="/assets/img/Lux-Health-apps-on-all-devices.webp 1000w, /assets/img/Lux-Health-apps-on-all-devices-800px.webp 800w, /assets/img/Lux-Health-apps-on-all-devices-600px.webp 600w" src="/assets/img/Lux-Health-apps-on-all-devices.webp" alt="Lux Health apps were made to run on all devices" class="centered-image" />
+    <img width="100%" height="100%" srcset="/assets/img/Lux-Health-apps-on-all-devices.webp 1000w, /assets/img/Lux-Health-apps-on-all-devices-800px.webp 800w, /assets/img/Lux-Health-apps-on-all-devices-600px.webp 600w, /assets/img/Lux-Health-apps-on-all-devices-400px.webp 400w" src="/assets/img/Lux-Health-apps-on-all-devices.webp" alt="Lux Health apps were made to run on all devices" class="centered-image" />
   </section>
 
   <section class="three-part-section">
