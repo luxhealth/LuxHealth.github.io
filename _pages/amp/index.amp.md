@@ -6,6 +6,21 @@ permalink: /amp/
 # jsonld: index/indexld
 ---
 
+{% if jekyll.environment == 'production' %}
+<amp-analytics type="gtag" data-credentials="include">
+<script type="application/json">
+{
+"vars" : {
+    "gtag_id": "{{site.google_analytics}}",
+    "config" : {
+    "{{site.google_analytics}}": { "groups": "default" }
+    }
+}
+}
+</script>
+</amp-analytics>
+{% endif %}
+
 <main class="constrain-to-1760">
   <section class="hero-banner">
     <a href="/" class="logo-link">
