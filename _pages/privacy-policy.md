@@ -3,7 +3,7 @@ layout: base
 title: Lux Health Privacy Policy
 permalink: /privacy-policy
 last_revised: February 29, 2020
-support_email: support@myluxhealth.com
+support_email: support@luxhealth.com
 address: USA
 ---
 <h1>{{ page.title }}</h1>
