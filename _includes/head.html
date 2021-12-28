@@ -1,13 +1,428 @@
 <!-- Required meta tags -->
 <meta charset="utf-8">
 
-
 {% if page.canonical_link %}
 <script async src="https://cdn.ampproject.org/v0.js"></script>
-<link rel="canonical" href="{{ site.url }}">
+<link rel="canonical" href="{{ base_url }}">
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<style amp-custom>
+:root {
+  --lux-font-family: sohne-var, "Helvetica Neue", Arial, sans-serif;
+  --fluid-font-mobile: 25px; /* mobile */
+  --fluid-font-desktop: 40px; /* desktop */
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #fff;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  margin: 0;
+}
+
+body.dark {
+  background: #000;
+  color: #fff;
+}
+
+.medium-font-weight {
+  font-weight: 500;
+}
+
+.constrain-to-1760 {
+  max-width: 1760px;
+  margin: 0 auto;
+}
+
+.hero-banner {
+  background: url("/assets/img/man-waving-on-video-call-800px.webp") no-repeat -64px -80px;
+  background-size: auto 100%;
+  min-height: 300px;
+  height: 566px;
+  margin-bottom: 184px;
+}
+
+a.logo-link {
+  border-radius: 48px 48px 150px 150px;
+  display: inline-block;
+  margin: 42px 40px 0 40px;
+}
+
+a.logo-link img {
+  border-radius: 48px 48px 150px 150px;
+}
+
+.hero-banner h1 {
+  background-color: #fff;
+  color: #03ABFF;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 32px;
+  padding: 8px;
+}
+
+.hero-content {
+  margin-top: 272px;
+}
+
+.hero-content .rounded-blue-button {
+  margin: 24px 40px;
+}
+
+.hero-content p {
+  background: #fff;
+  box-sizing: border-box;
+  color: #797979;
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: 2;
+  margin: 0 40px;
+  min-width: 300px;
+}
+
+.rounded-blue-button {
+  background-color: #03ABFF;
+  border: 0;
+  border-radius: 100px;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  outline: 0;
+  padding: 12px 36px;
+  text-decoration: none;
+}
+
+.rounded-blue-button:hover {
+  cursor: pointer;
+}
+
+.left-anchored-section {
+  min-height: 300px;
+  height: 730px;
+  margin: 460px auto 520px auto;
+  display: inline-block;
+}
+
+.left-anchored-section .section-content {
+  display: inline-block;
+  flex: 1;
+  margin: 40px;
+  max-width: 480px;
+  vertical-align: top;
+}
+
+.left-anchored-section .img-container {
+  flex: 1; width: 40%; min-width: 300px; max-width: 650px;
+  margin: 0 auto;
+}
+
+.left-anchored-section h3,
+.centered-section h3 {
+  color: #03ABFF;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.left-anchored-section p {
+  color: #797979;
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: 2;
+  width: 100%;
+}
+
+.centered-section {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.centered-section-image {
+  display: inline-block;
+  width: 30%;
+  min-width: 300px;
+}
+
+.centered-section-content {
+  display: inline-block;
+  margin: 40px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.centered-image {
+  margin-top: 40px;
+  width: 90%;
+  max-width: 1000px;
+}
+
+ul.features-list {
+  color: #797979;
+  margin-left: 0;
+  padding: 0 16px;
+  font-size: 20px;
+}
+
+ul.features-list hr {
+  background-color: #797979;
+  border: none;
+  height: 1px;
+  margin: 18px 0;
+  opacity: 0.8;
+}
+
+.three-part-section {
+  text-align: center;
+  min-height: 300px;
+  height: 560;
+  margin: 0px auto 40px auto;
+}
+
+.three-section {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 40px;
+  line-height: 2;
+  text-align: left;
+  color: #797979;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.footer-section {
+  background: #95dcff;
+  width: 100%;
+  height: 676px;
+  text-align: center;
+}
+
+.footer-content {
+  display: block;
+  padding-top: 230px;
+  position: relative;
+}
+
+.three-section h3,
+.footer-section h3 {
+  color: #03ABFF;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+@media (min-width: 800px) {
+  .hero-banner {
+    background: url("/assets/img/man-waving-on-video-call.webp") no-repeat center -80px;
+    background-size: 100%;
+    height: 730px;
+    margin-bottom: 184px;
+  }
+
+  .hero-banner h1 {
+    background-color: transparent;
+    color: #03ABFF;
+    font-size: 48px;
+    margin: 0 40px;
+    padding: 0;
+  }
+
+  .hero-content {
+    margin-top: 0;
+    float: right;
+  }
+
+  .rounded-blue-button {
+    font-size: 18px;
+    outline: 0;
+    padding: 12px 36px;
+  }
+  
+  .hero-content .rounded-blue-button {
+    margin: 24px 40px 28px 40px;
+  }
+  
+  .hero-content p {
+    font-size: 20px;
+    line-height: 2;
+    margin: 0;
+    padding: 40px 200px 40px 40px;
+    width: 660px;
+  }
+
+  .left-anchored-section {
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 300px;
+    height: 730px;
+    margin: 0 0 120px 0;
+    justify-content: flex-end;
+  }
+
+  .left-anchored-section .img-container {
+    flex: 1; width: 40%; min-width: 300px; max-width: 650px;
+    margin: 0;
+  }
+
+  .left-anchored-section .section-content {
+    margin: 40px 120px 40px 40px;
+    width: 660px;
+  }
+
+  .left-anchored-section h3,
+  .centered-section h3 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  .left-anchored-section p {
+    font-size: 20px;
+    line-height: 2;
+  }
+
+  .centered-section {
+    margin-bottom: 40px;
+  }
+
+  ul.features-list {
+    margin-left: 0;
+    padding: 0 16px;
+    font-size: 20px;
+  }
+
+  ul.features-list hr {
+    height: 1px;
+    margin: 18px 0;
+    opacity: 0.8;
+  }
+
+  .three-part-section {
+    min-height: 300px;
+    height: 560;
+    margin: 40px auto;
+  }
+
+  .three-section {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    line-height: 2;
+    text-align: left;
+    font-size: 20px;
+    vertical-align: top;
+  }
+
+  .three-section h3,
+  .footer-section h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+}
+
+.fixed-top-notice {
+  background: #59A7FD;
+  color: #fff;
+  width: 100%;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 30px;
+  box-sizing: border-box;
+  top: 0;
+}
+
+p>strong {
+  font-weight: bold;
+}
+
+/***
+CSS Infinite Slideshow
+***/
+.slideshow-container {
+  background-color: #0a2540;
+  color: rgba(255,255,255,0.6);
+  display: block;
+  height: 240px;
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+  box-sizing: border-box;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.slideshow-container h3 {
+  font-size: 24;
+  font-weight: 100;
+  margin: 20px;
+}
+
+.slideshow {}
+
+.slideshow .slide-track {
+  animation: scroll 30s linear infinite;
+  display: flex;
+  width: calc(250px * 12);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 6.93));
+  }
+}
+
+.slideshow .slide-track .slide {
+  display: inline-block;
+  height: 100px;
+  width: 250px;
+}
+
+.slide img {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  /* transform: translateY(-50%); */
+}
+
+footer {
+  margin: 60px 0 20px 0;
+  text-align: center;
+}
+
+footer .footer-links,
+footer .footer-links a {
+  color: #aaa;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-us-flag {
+  margin: 16px 0 8px 0;
+}
+
+.footer-logo {
+  margin-top: 16px;
+}
+
+.footer-string {
+  color: #5a5a5a; margin: 8px 0 64px 0;
+}
+</style>
 {% elsif page.amp_link %}
-<link rel="amphtml" href="{{ site.url }}/amp{{ page.amp_link }}">
+<link rel="amphtml" href="{{ base_url }}/amp{{ page.amp_link }}">
 {% endif %}
 
 {% if page.jsonld %}
@@ -19,14 +434,13 @@
 <meta name="author" content="{{ site.author }}">
 <meta name="generator" content="Jekyll v4.0.0">
 
-<script src="{{ base_url }}/assets/js/lux.js" type="text/javascript"></script>
-<link rel="stylesheet" href="{{ base_url }}/assets/styles/main.css">
-
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/assets/img/icons/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
 
+{% unless page.canonical_link %}
+<link rel="stylesheet" href="{{ base_url }}/assets/styles/main.css">
 <!-- 1) connect to domain of font files -->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -40,6 +454,7 @@
 <noscript>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap">
 </noscript>
+{% endunless %}
 
 {% if page.title %}
 	<title>{{ site.title }} | {{ page.title }}</title>
@@ -47,7 +462,7 @@
 	<title>{{ site.title }}</title>
 {% endif %}
 
-{% if jekyll.environment == 'production' %}
+{% if jekyll.environment == 'production' and page.canonical_link %}
 	<!-- change your GA id in _config.yml -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
 	<script>
@@ -57,4 +472,18 @@
 
 		gtag('config', '{{site.google_analytics}}');
 	</script>
+{% elsif jekyll.environment == 'production' and page.amp_link %}
+	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+	<amp-analytics type="gtag" data-credentials="include">
+	<script type="application/json">
+	{
+	"vars" : {
+		"gtag_id": "{{site.google_analytics}}",
+		"config" : {
+		"{{site.google_analytics}}": { "groups": "default" }
+		}
+	}
+	}
+	</script>
+	</amp-analytics>
 {% endif %}

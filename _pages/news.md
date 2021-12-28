@@ -1,5 +1,5 @@
 ---
-layout: plain_base
+layout: base
 description: Lux Health brings in-person, on-demand healthcare to your home, work, or vacation.
 title: News
 permalink: /nEgZsNt3P4VvG4bQZEios

@@ -2,6 +2,7 @@
 layout: base
 description: Lux Health brings the top, full-stack software solution to top-notch concierge medical clinics.
 title: Best-In-Class, Full-Stack Solution for Concierge Medical Clinics
+amp_link: /
 ---
 <main class="constrain-to-1760">
   <section class="hero-banner">

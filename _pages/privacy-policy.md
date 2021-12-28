@@ -1,5 +1,5 @@
 ---
-layout: plain_base
+layout: base
 title: Lux Health Privacy Policy
 permalink: /privacy-policy
 last_revised: February 29, 2020

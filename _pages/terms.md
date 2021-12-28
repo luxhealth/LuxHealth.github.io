@@ -1,5 +1,5 @@
 ---
-layout: plain_base
+layout: base
 title: Lux Health Terms of Use
 permalink: /terms
 last_revised: February 29, 2020
