@@ -472,6 +472,8 @@ footer a:hover {
 
 		gtag('config', '{{site.google_analytics}}');
 	</script>
+  <meta name="facebook-domain-verification" content="{{site.meta_analytics}}" />
 {% elsif jekyll.environment == 'production' and page.canonical_link %}
 	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  <meta name="facebook-domain-verification" content="{{site.meta_analytics}}" />
 {% endif %}
