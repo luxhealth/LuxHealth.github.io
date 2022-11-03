@@ -402,6 +402,7 @@ ul.features-list hr {
     font-size: 48px;
     margin: 0 40px;
     padding: 0;
+    -webkit-text-stroke: 0px #fff;
   }
 
   .hero-content {
