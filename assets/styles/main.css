@@ -22,22 +22,25 @@ background-image: linear-gradient(
 );
 }
 
-#gradient-canvas {
+#lux-canvas {
   width:100%;
   height:100%;
   min-height: 300px;
-  --gradient-color-1: #ef008f; 
+  --gradient-color-1: #42BCFA; 
+  /* --gradient-color-1: #ef008f;  */
   /* --gradient-color-2: #7038ff; */
   --gradient-color-2: #4391F7; 
-  --gradient-color-3: #fff;
+  --gradient-color-3: #f1f1f1;
   --gradient-color-4: #6ec3f4;
   /* --gradient-color-1: #EE5C5A; 
   --gradient-color-3: #4391F7; 
   --gradient-color-4: #6EC7C8;  
   --gradient-color-2: #FAED9B; */
-  position: absolute;
-  top: 0;
-  z-index: 0;
+  /* position: absolute; */
+  /* top: 0; */
+  /* z-index: 0; */
+  min-height: 320px;
+  min-width: 320px;
 }
 
 main.container {
@@ -170,7 +173,7 @@ header {
   background-size: auto 100%;
   min-height: 300px;
   height: 566px;
-  margin-bottom: 184px;
+  margin-bottom: 684px;
 }
 
 a.logo-link {
@@ -190,6 +193,7 @@ a.logo-link img {
   font-weight: 600;
   margin: 0 32px;
   padding: 8px;
+  -webkit-text-stroke: 0.5px #aaa;
 }
 
 .hero-content {
@@ -203,6 +207,7 @@ a.logo-link img {
 .hero-content p {
   background: #fff;
   box-sizing: border-box;
+  border-radius: 4px 0 0 0;
   color: #797979;
   box-sizing: border-box;
   font-size: 20px;
@@ -230,7 +235,7 @@ a.logo-link img {
 .left-anchored-section {
   min-height: 300px;
   height: 730px;
-  margin: 460px auto 520px auto;
+  margin: 0px auto 640px auto;
   display: inline-block;
 }
 
@@ -280,10 +285,51 @@ a.logo-link img {
   text-align: left;
 }
 
+.centered-section-content p {
+  font-size: 20px;
+  line-height: 2;
+}
+
 .centered-image {
   margin-top: 40px;
   width: 90%;
   max-width: 1000px;
+}
+
+.layered-section {
+  height: 720px;
+  margin: 0 auto 120px auto;
+  text-align: center;
+  position: relative;
+}
+
+.layered-section canvas {
+  position: absolute;
+  left: 0;
+  opacity: 0.8;
+}
+
+
+.layered-section-content {
+  color: #797979;
+  font-size: clamp(16px, 2vw, 32px); 
+  line-height: 2;
+  margin: 0 40px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.layered-section h3 {
+  color: #03ABFF;
+  /* -webkit-text-stroke: 0.3px #fff; */
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.layered-section .layered-section-content {
+  position: absolute;
+  z-index: 100;
 }
 
 ul.features-list {
@@ -347,7 +393,7 @@ ul.features-list hr {
     background: url("/assets/img/man-waving-on-video-call_1800px.webp") no-repeat center -80px;
     background-size: 100%;
     height: 730px;
-    margin-bottom: 184px;
+    margin-bottom: 84px;
   }
 
   .hero-banner h1 {
@@ -377,7 +423,7 @@ ul.features-list hr {
     font-size: 20px;
     line-height: 2;
     margin: 0;
-    padding: 40px 200px 40px 40px;
+    padding: 40px;
     width: 660px;
   }
 
@@ -387,12 +433,12 @@ ul.features-list hr {
     min-height: 300px;
     height: 730px;
     margin: 0 0 120px 0;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
 
   .left-anchored-section .img-container {
     flex: 1; width: 40%; min-width: 300px; max-width: 650px;
-    margin: 0;
+    margin: 0 48px 0 0;
   }
 
   .left-anchored-section .section-content {

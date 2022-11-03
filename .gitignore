@@ -6,3 +6,5 @@ _site/
 *.DS_STORE
 
 .ruby-version
+
+lux-human.js
