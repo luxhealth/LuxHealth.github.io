@@ -9,7 +9,7 @@ body {
 margin:0;
 padding:0;
 overflow-x: hidden;
-min-height: -webkit-fill-available;
+min-height: -webkit-fill-available; /* Covers the notch area. */
 }
 
 .linearGradient {
