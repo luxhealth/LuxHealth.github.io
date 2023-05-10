@@ -71,7 +71,7 @@ amp_link: /
   </section>
 
   <section class="layered-section">
-    <div class="layered-section-content">
+    <div class="layered-section-content" style="padding: 24px;">
       <h3>Starting or Considering a New Practice?</h3>
       <p>
         In addition to our ClinicOS and Lux Concierge Support, we offer funding, clinic space, and startup expertise for excellent providers wanting an experienced (non-equity) partner in opening their own practice.<br /><br />  Only need guidance?  We share our experience free for those genuinely interested in starting a practice in a year or two.
@@ -80,7 +80,7 @@ amp_link: /
         <a href="https://vip.luxhealth.com/intake" class="rounded-blue-button">Tell Me More</a>
       </div>
     </div>
-    <canvas id="lux-canvas" style="width: 100%; height: 720px;"></canvas>
+    <canvas id="lux-canvas" style="width: 100%; height: 640px;"></canvas>
   </section>
 
   <section class="centered-section">
