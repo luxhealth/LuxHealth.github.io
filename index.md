@@ -74,7 +74,7 @@ amp_link: /
     <div class="layered-section-content" style="padding: 24px;">
       <h3>Starting or Considering a New Practice?</h3>
       <p>
-        In addition to our ClinicOS and Lux Concierge Support, we offer funding, clinic space, and startup expertise for excellent providers wanting an experienced (non-equity) partner in opening their own practice.<br /><br />  Only need guidance?  We share our experience free for those genuinely interested in starting a practice in a year or two.
+        In addition to our ClinicOS and Lux Concierge Support, we offer funding, clinic space, and startup expertise for excellent providers wanting an experienced (non-equity) partner in opening their own practice.<br /><br />  Only need guidance?  We share our experience free for those genuinely interested in starting their own practice.
       </p>
       <div style="margin-left: 0 auto 0 auto; width: 100%; display: inline-block; position: relative; text-align: center;">
         <a href="https://vip.luxhealth.com/intake" class="rounded-blue-button">Tell Me More</a>
