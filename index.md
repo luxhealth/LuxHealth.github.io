@@ -10,7 +10,7 @@ amp_link: /
   <section class="centered-section">
     <div style="margin-top: 100px;">
       <img width="61px" height="47px" src="{{ site.url }}/assets/img/Lux-Health-heart.webp" alt="Lux Health cares heart" style="display: block; position: relative; z-index: 1000; margin: 0 auto -100px auto; transform: translate(-160px, 0);" />
-      <lottie-player src="https://lottie.host/bcb477f9-046e-4e29-94aa-ba9dec103a71/EICpcT6HFP.json" background="#FFFFFF" speed="1" style="width: 500px; height: 500px; margin: 0 auto;" loop autoplay direction="1" mode="normal"></lottie-player>
+      <lottie-player src="https://lottie.host/bcb477f9-046e-4e29-94aa-ba9dec103a71/EICpcT6HFP.json" background="#FFFFFF" speed="1" style="width: 500px; height: 500px; margin: 0 auto; overflow: hidden;" loop autoplay direction="1" mode="normal"></lottie-player>
       <h3 style="text-wrap: wrap; margin-top: -30px; display: inline-block; position: relative; z-index: 1000;">We're grooming something <i>NEW</i></h3>
     </div>
   </section>
