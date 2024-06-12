@@ -19,6 +19,6 @@ amp_link: /
 
 <section class="footer-section">
 
-    <h3 style="font-size: 40px; line-height: 640px; vertical-align: middle;">See you again soon!</h3>
+    <h3 style="font-size: 48px; line-height: 640px; vertical-align: middle;">See you again soon!</h3>
 
 </section>
