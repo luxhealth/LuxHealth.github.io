@@ -4,6 +4,11 @@ description: Lux Health brings the top, full-stack software solution to independ
 title: Best-In-Class, Full-Stack Solution for Independent Provider Clinics
 amp_link: /
 ---
+
+<section style="width: 100%; background: #eee; text-align: center;padding: 32px 0; ">
+<a class="hero-subheader" style="color: #FF69B4; text-wrap: wrap;display: inline-block; position: relative; z-index: 1000;" href="/healthcare-partners">Looking for our previous home page?  Current Partners, please go here while we are under construction.</a>
+</section>
+
 <main class="constrain-to-1760">
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
